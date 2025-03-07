@@ -5,3 +5,9 @@
 @import "chat/message-form";
 @import "chat/messages";
 @import "chat/users";
+
+
+#app {
+	background: url("/images/disco-cat-dj.gif");
+	background-size: cover;
+}
