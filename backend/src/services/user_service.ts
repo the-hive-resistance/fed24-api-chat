@@ -47,7 +47,10 @@ export const createUser = (data: User) => {
 			id: data.id,
 		},
 		create: data,
-		update: data,
+		update: {
+			username: data.username,
+			roomId: data.roomId,
+		},
 	});
 }
 
